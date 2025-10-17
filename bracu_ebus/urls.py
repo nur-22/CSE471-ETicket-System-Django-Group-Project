@@ -6,8 +6,8 @@ urlpatterns = [
     path('user/', include('user.urls')),
     path('admin/', include('admin_panel.urls')),
     path('', include('homepage.urls')),
-    path('', include('ticket_booking.urls')),
-    path('', include('payment.urls')), #my
+    path('tickets/', include('ticket_booking.urls')),
+    path('payment/', include('payment.urls')), #my
     
     
     
